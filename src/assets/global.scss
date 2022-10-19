@@ -1,0 +1,54 @@
+@import "./fonts.scss";
+
+.nav {
+  .logo {
+    font-family: Helvetica, sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+  }
+}
+
+h1, h2 {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.2;
+  font-size: 6.4rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: Menlo, sans-serif;
+
+  p{
+    font-size: 2rem;
+    letter-spacing: 0;
+  }
+}
+
+#app  {
+  .page-header{
+    background-position:0% 28%;
+  }
+
+  .footer {
+    background-color: black;
+
+    .logo {
+      border-color: white;
+    }
+  }
+
+  .page-section.narrow {
+    .content {
+      // max-width: 67rem;
+
+      img {
+        max-width: 60rem;
+        width: 100%;
+      }
+    }
+  }
+}
