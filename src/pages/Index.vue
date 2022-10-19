@@ -1,5 +1,5 @@
 <template>
-  <Directory class="" bgImage="url('/img/home-bg.png')">
+  <Directory bgColor="lightgrey" bgImage="url(/img/home-bg.png)">
   <template #page-header>
     <Header class="v2">
       <template>We build multi-site publishing systems</template>
@@ -14,20 +14,9 @@
   </PageSection>
 
     <PageSection padding="0rem 3rem 3rem">
-      <!-- <Split padding="3rem 3rem">
+      <Split>
         <template>
-          <h2>For Processing Content</h2>
-          <p>We process your content and architect it for accessibility and search.</p>
-          <p>This structure is mapped to our component library which is wireframed in Figma and deployed in code.</p>
-        </template>
-        <template #image>
-          <g-image src="/img/process.png" />
-        </template>
-      </Split> -->
-
-      <Split class="flip">
-        <template>
-          <h2>For consisency and scale</h2>
+          <h2>For consistency and scale</h2>
           <p>A component-based design system quickly creates consistent design accross all sites and applications you own.</p>
         </template>
         <template #image>
@@ -35,7 +24,7 @@
         </template>
       </Split>
 
-      <Split padding="6rem 0rem">
+      <Split class="flip" padding="6rem 0">
         <template>
           <h2>For Accessibility</h2>
           <p>User Experience should not be an after thought. We have designed a system to keep your information both searchable and accessible.</p>
@@ -46,7 +35,18 @@
         </template>
       </Split>
 
-      <Split class="flip">
+      <Split>
+        <template>
+          <h2>For Structured Content</h2>
+          <p>We process your content and architect it for accessibility and search.</p>
+          <p>This structure is mapped to our component library which is wireframed in Figma and deployed in code.</p>
+        </template>
+        <template #image>
+          <g-image src="/img/process.png" />
+        </template>
+      </Split>
+
+      <Split class="flip" padding="6rem 0">
         <template>
           <h2>For Speed</h2>
           <p>
@@ -60,7 +60,7 @@
     </PageSection>
 
     <PageSection class="narrow center">
-      <template #title>Customized with any content type imaginable</template>
+      <template #title>Customized with any content type</template>
 
       <template>
         <p>Don't let your CMS dictate your content. Deploy anything you can imagine: blog posts, evergreen articles, video posts, video series, data visualization, interactive media, maps.</p>
