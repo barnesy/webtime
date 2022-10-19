@@ -3,7 +3,7 @@
   <template #page-header>
     <Header class="v2">
       <template>We build multi-site publishing systems</template>
-      <template #support>Are publishing documentation, video series, events, company resources and news across multiple websites? We can help.</template>
+      <template #support>Are you publishing documentation, video series, events, company resources and news across multiple websites? We do that.</template>
     </Header>
   </template>
 
