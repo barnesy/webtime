@@ -16,7 +16,7 @@
     <PageSection padding="0rem 3rem 3rem">
       <Split>
         <template>
-          <h2>For consistency and scale</h2>
+          <h2>For consistency at scale</h2>
           <p>A component-based design system quickly creates consistent design accross all sites and applications you own.</p>
         </template>
         <template #image>
@@ -91,9 +91,6 @@
           <img src="/img/figma.svg" />
         </GridItem>
         <GridItem>
-          <img src="/img/github.png" />
-        </GridItem>
-        <GridItem>
           <img src="/img/contentful.svg" />
         </GridItem>
         <GridItem>
@@ -107,6 +104,12 @@
         </GridItem>
         <GridItem>
           <img src="/img/sendgrid.svg" />
+        </GridItem>
+        <GridItem>
+          <img src="/img/netlify.png" />
+        </GridItem>
+        <GridItem>
+          <img src="/img/github.png" />
         </GridItem>
       </GridRow>
       <p>Don't let your CMS dictate your content. Deploy anything you can imagine: blog posts, evergreen articles, video posts, video series, data visualization, interactive media.</p>
