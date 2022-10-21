@@ -1,22 +1,22 @@
 <template>
-  <Directory bgColor="lightgrey" bgImage="url(/img/home-bg.png)">
-  <template #page-header>
-    <Header class="v2">
-      <template>We build multi-site publishing systems</template>
-      <template #support>Are you publishing documentation, video series, events, company resources and news across multiple websites? We do that.</template>
-    </Header>
-  </template>
+  <Directory bgColor="lightgrey" bgImage="url(/img/circuts-home.png)">
+    <template #page-header>
+      <Header class="v2">
+        <template>We build multi-site publishing systems</template>
+        <template #support>Are you publishing documentation, video series, events, company resources and news across multiple websites? We do that.</template>
+      </Header>
+    </template>
 
 
-  <PageSection padding="6rem 3rem 3rem" class="narrow center">
-      <template #title>A set of systems</template>
-      <p>All you have to do is add content and pick where to publish.</p>
-  </PageSection>
+    <PageSection padding="8rem 3rem 8rem" class="narrow center">
+        <template #title>A set of systems</template>
+        <p>All you have to do is add content and pick where to publish.</p>
+    </PageSection>
 
     <PageSection padding="0rem 3rem 3rem">
       <Split>
         <template>
-          <h2>For consistency at scale</h2>
+          <h2>Consistency at scale</h2>
           <p>A component-based design system quickly creates consistent design accross all sites and applications you own.</p>
         </template>
         <template #image>
@@ -38,7 +38,7 @@
 
       <Split>
         <template>
-          <h2>For Structured Content</h2>
+          <h2>Structured Content</h2>
           <p>We process your content and architect it for accessibility and search.</p>
           <p>This structure is mapped to our component library which is wireframed in Figma and deployed in code.</p>
         </template>
@@ -115,8 +115,8 @@
       <p>Don't let your CMS dictate your content. Deploy anything you can imagine: blog posts, evergreen articles, video posts, video series, data visualization, interactive media.</p>
     </PageSection>
 
-    <PageSection class="narrow center">
-      <tempalte #title>Sounds like something you need, doesn't it?</tempalte>
+    <PageSection class="center">
+      <template #title>Sounds like something you need?</template>
       <template><p>Great. We can build it. In fact, we're halfway done already.</p></template>
     </PageSection>
   </Directory>
