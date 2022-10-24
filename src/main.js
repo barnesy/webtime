@@ -25,8 +25,8 @@ import {  Button,
           Table,
           Figure
 }
-// from '../../component-library/lib';
-from '@gas-digital/components';
+from '../../component-library/lib';
+// from '@gas-digital/components';
 
 import "~/assets/global.scss";
 

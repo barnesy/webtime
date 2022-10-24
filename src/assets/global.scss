@@ -12,6 +12,7 @@
     font-family: Helvetica, sans-serif;
     font-size: 2.4rem;
     font-weight: bold;
+    letter-spacing: 0;
   }
 }
 
@@ -30,7 +31,7 @@ h1{
 }
 
 h2 {
-  font-size: 3.8rem !important;
+  font-size: 3.8rem;
 }
 
 body {
@@ -50,6 +51,10 @@ body {
   .footer {
     background-color: black;
 
+    a {
+      color: white;
+    }
+
     .logo {
       color: white;
       border-color: white;
@@ -58,7 +63,6 @@ body {
 
   .page-section.narrow {
     .content {
-      // max-width: 67rem;
 
       img {
         max-width: 60rem;
@@ -70,5 +74,15 @@ body {
   .grid-item {
     margin:0rem 3rem;
     max-height: 8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
   }
 }
