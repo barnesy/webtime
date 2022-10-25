@@ -68,7 +68,7 @@
 
     </PageSection>
 
-    <PageSection bgColor="black" class="narrow dark center" padding="3rem">
+    <PageSection bgColor="black" class="narrow dark center" padding="8rem 3rem 6rem">
       <template #title>Did we miss anything?</template>
       <p>We are a full service shop capable of building anything, however, the above are our key areas of focus.</p>
     </PageSection>
