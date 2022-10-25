@@ -71,9 +71,25 @@ body {
     }
   }
 
+  .page-section .content > img {
+    width: 100%;
+    max-height: unset;
+  }
+
   .grid-item {
     margin:0rem 3rem;
     max-height: 8rem;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  li {
+    font-size: 1.8rem;
+    line-height: 2.2;
+    margin-bottom: 1rem;
   }
 }
 
@@ -84,5 +100,12 @@ body {
 
   h2 {
     font-size: 3rem;
+  }
+
+  ul {
+    li {
+      font-size: 1.2rem;
+      line-height: 2.2;
+    }
   }
 }
