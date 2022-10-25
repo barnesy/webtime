@@ -52,6 +52,15 @@
               <p>Our system is set up to integrate from anywhere to anywhere. We build custom integrations to support any use case.</p>
             </template>
           </Card>
+          <Card>
+            <template #image>
+              <g-image src="/img/automations.png" />
+            </template>
+            <template>Automations</template>
+            <template #description>
+              <p>We use automations to remove repetitive tasks like normilizations and scheduled messaging.</p>
+            </template>
+          </Card>
           <Card class="large">
             <template #image>
               <g-image src="/img/distrobution.png" />
