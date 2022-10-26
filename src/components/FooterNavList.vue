@@ -14,7 +14,7 @@
     </ul>
     <ul>
       <li class="hed">Sister Agencies</li>
-      <li>Parsimony</li>
+      <li><g-link to="https://www.parsimonydesign.com">Parsimony</g-link></li>
       <li><g-link to="https://ampersand.wtf">Ampersand</g-link></li>
     </ul>
   </div>
