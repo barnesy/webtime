@@ -2,7 +2,7 @@
   <Directory class="dark" bgColor="lightgrey" bgImage="url(/img/yarn.png)">
     <template #page-header>
       <Header class="v2">
-        <template>Multi-site management made for scale</template>
+        <template>Multi-site management<br/> made for scale</template>
         <!-- <template #support>Are you publishing documentation, video series, events, company resources and news across multiple websites? We do that.</template> -->
       </Header>
     </template>
