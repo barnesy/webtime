@@ -14,7 +14,7 @@
     </ul>
     <ul>
       <li class="hed">Sister Agencies</li>
-      <li><g-link to="/">Pasimony</g-link></li>
+      <li><g-link to="/">Parsimony</g-link></li>
       <li><g-link to="/">Ampersand</g-link></li>
     </ul>
   </div>
