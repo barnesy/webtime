@@ -8,7 +8,7 @@
 
     <PageSection padding="8rem 3rem 8rem" class="center">
       <template #title>Are these important to you?</template>
-      <p>If so drop us an email describing your dreams.</p>
+      <p>This is what we do best:</p>
       <CardGroup>
         <Card>
           <template #image>
