@@ -27,8 +27,8 @@
       <Split class="flip" padding="6rem 0">
         <template>
           <h2>For Accessibility</h2>
-          <p>User Experience should not be an after thought. We have designed a system to keep your information both searchable and accessible.</p>
-          <p><strong>Did you know:</strong> lawsuits for websites that fail accessibility requirements are on the rise?</p>
+          <p>User Experience should not be an afterthought. We have designed a system to keep your information both searchable and accessible.</p>
+          <p><strong>Did you know: </strong><a href="https://www.wsj.com/articles/lawsuits-over-digital-accessibility-for-people-with-disabilities-are-rising-11626369056">lawsuits for websites that fail accessibility requirements</a> are on the rise?</p>
         </template>
         <template #image>
           <g-image src="/img/accessibility.png" />
@@ -40,7 +40,7 @@
         <template>
           <h2>Structured Content</h2>
           <p>We process your content and architect it for accessibility and search.</p>
-          <p>This structure is mapped to our component library which is wireframed in Figma and deployed in code.</p>
+          <p>This structure is mapped to our component library, wireframed in Figma, and deployed in code.</p>
         </template>
         <template #image>
           <g-image src="/img/process.png" />
@@ -112,7 +112,7 @@
           <img src="/img/github.png" />
         </GridItem>
       </GridRow>
-      <p>Don't let your CMS dictate your content. Deploy anything you can imagine: blog posts, evergreen articles, video posts, video series, data visualization, interactive media.</p>
+
     </PageSection>
 
     <PageSection class="center">
