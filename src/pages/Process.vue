@@ -3,7 +3,7 @@
     <template #page-header>
       <Header class="v2">
         <template>Our Process</template>
-        <template #support>Plan, deploy, plan, deploy</template>
+        <template #support>Plan, build, deploy, repeat.</template>
       </Header>
     </template>
 
@@ -11,15 +11,14 @@
 
         <h2>Information Architecture</h2>
 
-        <p>In general we start the process reviewing unstructured content. This is usually information that is in long form documents that are largely unstructured or disconnected. We use Google's Zero Moment of Truth to structure the content into a heirarchy that supports the company's domain authority.</p>
+        <p>In general, we start the process reviewing unstructured content. This is usually information that is in long form documents that are largely unstructured or disconnected. We use <a href="https://www.thinkwithgoogle.com/marketing-strategies/micro-moments/zero-moment-truth/">Google's Zero Moment of Truth</a> to structure the content into a hierarchy that supports the company's domain authority.</p>
 
         <g-image src="/img/process.png" />
 
         <h2>Establish Goals</h2>
-        <p>During this phase we establish goals for the business that are concrete e.i.: How many people turned on a certain feature or signed up for a paid account. </p>
+        <p>During this phase we establish goals for the business that are concrete, like, "How many people turned on a certain feature?" or "How many customers signed up for a paid account?" </p>
 
         <h2>Wireframes</h2>
-
         <p>We use our component library to piece together wireframes that accomidate the heirarchy we have defined. There are rules to follow for each kind of content: </p>
 
         <ul>
@@ -40,7 +39,7 @@
             </template>
             <template>Data Imports</template>
             <template #description>
-              Every company comes with data. We normalize and map legacy data to our system and existing models.
+              Every company collects data. We normalize and map legacy data to our system.
             </template>
           </Card>
           <Card>
@@ -67,13 +66,13 @@
             </template>
             <template>Deployment</template>
             <template #description>
-              With our CI/CD pipeline via Netlify deployment is seemless. Every code commit and change of content triggers deploys.
+              With our CI/CD pipeline via Netlify deployment is seamless. Every code commit and change of content triggers deploys.
             </template>
           </Card>
         </CardGroup>
 
         <h2>Measure Goal Completions</h2>
-        <p>Measuring defined goals is essential for the feedback loop. We make adjustments, run A/B test, and try new ways of effecting our goal conversion rates.</p>
+        <p>Measuring defined goals is essential for the feedback loop. We make adjustments, run A/B tests, and try new ways to impact our goal conversion rates.</p>
 
         <g-image src="/img/contextual-ui.png" />
 
