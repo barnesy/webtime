@@ -44,9 +44,6 @@ body {
 }
 
 #app  {
-  .page-header{
-    background-position:0% 15%;
-  }
 
   .footer {
     background-color: black;
@@ -79,6 +76,18 @@ body {
   .grid-item {
     margin:0rem 3rem;
     max-height: 8rem;
+  }
+
+  .card {
+    .title {
+      font-family: Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .description {
+      font-family: Menlo, sans-serif;
+    }
   }
 }
 

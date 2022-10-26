@@ -1,5 +1,5 @@
 <template>
-  <Directory bgColor="lightgrey" bgImage="url(/img/roads.png)">
+  <Directory class="dark" bgColor="lightgrey" bgImage="url(/img/rainbow-ladies.png)">
     <template #page-header>
       <Header class="v2">
         <template>Our Process</template>
@@ -40,7 +40,7 @@
             </template>
             <template>Data Imports</template>
             <template #description>
-              <p>Every company comes with data. We normalize and map legacy data to our system and existing models.</p>
+              Every company comes with data. We normalize and map legacy data to our system and existing models.
             </template>
           </Card>
           <Card>
@@ -49,7 +49,7 @@
             </template>
             <template>Integrations</template>
             <template #description>
-              <p>Our system is set up to integrate from anywhere to anywhere. We build custom integrations to support any use case.</p>
+              Our system is set up to integrate from anywhere to anywhere. We build custom integrations to support any use case.
             </template>
           </Card>
           <Card>
@@ -58,7 +58,7 @@
             </template>
             <template>Automations</template>
             <template #description>
-              <p>We use automations to remove repetitive tasks like normilizations and scheduled messaging.</p>
+              We use automations to remove repetitive tasks like normilizations and scheduled messaging.
             </template>
           </Card>
           <Card class="large">
@@ -67,7 +67,7 @@
             </template>
             <template>Deployment</template>
             <template #description>
-              <p>With our CI/CD pipeline via Netlify deployment is seemless.</p>
+              With our CI/CD pipeline via Netlify deployment is seemless. Every code commit and change of content triggers deploys.
             </template>
           </Card>
         </CardGroup>

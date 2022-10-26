@@ -1,14 +1,13 @@
 <template>
-  <Directory bgColor="lightgrey" bgImage="url(/img/roads.png)">
+  <Directory class="dark" bgColor="lightgrey" bgImage="url(/img/astronauts.png)">
     <template #page-header>
       <Header class="v2">
-        <template>You might be our client if</template>
-        <template #support>You can't live without 1 or more of the following:</template>
+        <template>You could be<br/> our client</template>
       </Header>
     </template>
 
     <PageSection padding="8rem 3rem 8rem" class="center">
-      <template #title>Key areas of focus</template>
+      <template #title>Our areas of focus</template>
       <CardGroup>
         <Card>
           <template #image>
@@ -16,7 +15,7 @@
           </template>
           <template>Scale</template>
           <template #description>
-            <p>The ability to publish content across multiple large sites without sacrificing site speed or functionality.</p>
+            The ability to publish content across multiple large sites without sacrificing site speed or functionality.
           </template>
         </Card>
         <Card>
@@ -25,7 +24,7 @@
           </template>
           <template>Multi-Site</template>
           <template #description>
-            <p>Connecting style, functionality, and content accross multiple sights while maintaining a simple CMS.</p>
+            Connecting style, functionality, and content accross multiple sights while maintaining a simple CMS.
           </template>
         </Card>
         <Card>
@@ -34,7 +33,7 @@
           </template>
           <template>Multi-Author</template>
           <template #description>
-            <p>Multiple authors can asynchronously update content with roles and permissions.</p>
+            Multiple authors can asynchronously update content with roles and permissions.
           </template>
         </Card>
         <Card>
@@ -43,7 +42,7 @@
           </template>
           <template>Speed and SEO</template>
           <template #description>
-            <p>Websites render as a hyprid of static and dynamic content to achieve high speeds at scale.</p>
+            Websites render as a hyprid of static and dynamic content to achieve high speeds at scale.
           </template>
         </Card>
         <Card>
@@ -52,7 +51,7 @@
           </template>
           <template>Custom Integrations</template>
           <template #description>
-            <p>We can integrate with any platform you bring to the table, provided they have a documented API.</p>
+            We can integrate with any platform you bring to the table, provided they have a documented API.
           </template>
         </Card>
         <Card>
@@ -61,7 +60,7 @@
           </template>
          <template>Customization at Scale</template>
          <template #description>
-            <p>We can ship braod sweeping style and content changes across the entire system with very little code.</p>
+            We can ship braod sweeping style and content changes across the entire system with very little code.
           </template>
         </Card>
       </CardGroup>
