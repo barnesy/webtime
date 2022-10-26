@@ -7,7 +7,8 @@
     </template>
 
     <PageSection padding="8rem 3rem 8rem" class="center">
-      <template #title>Our areas of focus</template>
+      <template #title>Are these important to you?</template>
+      <p>If so drop us an email describing your dreams.</p>
       <CardGroup>
         <Card>
           <template #image>
@@ -15,7 +16,7 @@
           </template>
           <template>Scale</template>
           <template #description>
-            The ability to publish content across multiple large sites without sacrificing site speed or functionality.
+            The ability to publish content across multiple sites without sacrificing speed.
           </template>
         </Card>
         <Card>
@@ -24,7 +25,7 @@
           </template>
           <template>Multi-Site</template>
           <template #description>
-            Connecting style, functionality, and content accross multiple sights while maintaining a simple CMS.
+            Style, functionality, and content accross multiple sites with a simple CMS.
           </template>
         </Card>
         <Card>
@@ -42,7 +43,7 @@
           </template>
           <template>Speed and SEO</template>
           <template #description>
-            Websites render as a hyprid of static and dynamic content to achieve high speeds at scale.
+            Site speed trumps theatrics and code that cause heavy page loads.
           </template>
         </Card>
         <Card>
@@ -51,7 +52,7 @@
           </template>
           <template>Custom Integrations</template>
           <template #description>
-            We can integrate with any platform you bring to the table, provided they have a documented API.
+            We can integrate with any platform with an API.
           </template>
         </Card>
         <Card>
@@ -60,7 +61,7 @@
           </template>
          <template>Customization at Scale</template>
          <template #description>
-            We can ship braod sweeping style and content changes across the entire system with very little code.
+            We can ship style and content changes across all sites simultaneosly.
           </template>
         </Card>
       </CardGroup>

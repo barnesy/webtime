@@ -8,14 +8,14 @@
     </ul>
     <ul>
       <li class="hed">Resources</li>
-      <li><g-link to="/">Google's Zero Moment of Truth</g-link></li>
-      <li><g-link to="/">Zen of Python</g-link></li>
-      <li><g-link to="/">SEO Table of Elements</g-link></li>
+      <li><g-link to="https://www.thinkwithgoogle.com/marketing-strategies/micro-moments/zero-moment-truth/">Google's Zero Moment of Truth</g-link></li>
+      <li><g-link to="https://peps.python.org/pep-0020/">Zen of Python</g-link></li>
+      <li><g-link to="https://searchengineland.com/guide/what-is-seo">SEO Table of Elements</g-link></li>
     </ul>
     <ul>
       <li class="hed">Sister Agencies</li>
-      <li><g-link to="/">Parsimony</g-link></li>
-      <li><g-link to="/">Ampersand</g-link></li>
+      <li>Parsimony</li>
+      <li><g-link to="https://ampersand.wtf">Ampersand</g-link></li>
     </ul>
   </div>
 </template>
