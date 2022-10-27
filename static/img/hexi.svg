@@ -1,7 +1,7 @@
 <svg id="hex" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.78 100.2">
   <style>
     .poly {
-      stroke-dasharray: 35;
+      stroke-dasharray: 125;
       animation: dash 30s linear infinite;
     }
 
@@ -12,12 +12,11 @@
   </style>
 
   <path
-        class="poly"
-        d="M43.14,99.81,0,74.91V25.09L43.14.19l43.14,24.9V74.91ZM86.28,25.09,43.14,50,0,25.09,43.14,50V99.81"
-        transform="translate(0.25 0.1)"
-        fill="transparent"
-        stroke="lightgrey"
-        stroke-miterlimit="10"
-        stroke-width="2"/>
-
+    class="poly"
+    d="M43.14,99.81,0,74.91V25.09L43.14.19l43.14,24.9V74.91ZM86.28,25.09,43.14,50,0,25.09,43.14,50V99.81"
+    transform="translate(0.25 0.1)"
+    fill="transparent"
+    stroke="lightgrey"
+    stroke-miterlimit="10"
+    stroke-width="2"/>
 </svg>
