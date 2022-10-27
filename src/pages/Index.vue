@@ -126,7 +126,7 @@
 
   .dazzle{
     background-repeat: repeat;
-    background-size: 5%;
+    background-size: 5.35%;
   }
 
 </style>
