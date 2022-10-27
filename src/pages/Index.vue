@@ -10,7 +10,7 @@
 
     <PageSection padding="8rem 3rem 8rem" class="narrow center dazzle" bgImage="url('/img/hexi.svg')">
         <template #title>A set of systems</template>
-        <p>All you have to do is add content and pick where to publish.</p>
+        <p>All you have to do is add content<br/> and pick where to publish.</p>
     </PageSection>
 
     <PageSection padding="0rem 3rem 3rem">
@@ -72,10 +72,10 @@
     </PageSection>
 
     <PageSection class="narrow center dark" bgColor="black">
-      <template #title>Distributed to one or more sites you own.</template>
+      <template #title>Distributed to one or more<br/> sites you own.</template>
 
       <template>
-        <p>Multi-site content distribution: create once, syndicate to multiple sites.</p>
+        <p>Multi-site content distribution: create once, <br/>syndicate to multiple sites.</p>
 
         <g-image src="/img/distrobution.png" />
       </template>
