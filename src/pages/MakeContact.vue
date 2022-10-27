@@ -25,4 +25,8 @@
   .directory {
     background-color: white;
   }
+
+  form {
+    width: 100% !important;
+  }
 </style>

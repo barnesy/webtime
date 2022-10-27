@@ -961,10 +961,10 @@
   resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-13.4.0.tgz#a59c311ebd1b801ee00edbc08663c8d78da26171"
   integrity sha512-YPdYqGmWiGAood7ri2BUXfPQKNthkQYV1rmQdaq4UAxWK5NLB5NXckaUYLbohqhHKtrq4tnfzVn+ePWID7Dzbg==
 
-"@gas-digital/components@^0.5.7":
-  version "0.5.8"
-  resolved "https://registry.yarnpkg.com/@gas-digital/components/-/components-0.5.8.tgz#429343607ff1d931e98b0d8cbb148f84b35c5f9c"
-  integrity sha512-mGmPzi1m8lUjC2L1xZZnhxVQjXD348J32+22P32QHmFeDa+wybZc0tqbL5oD6s+16R75mCdcSiTGmrd3ZdjJ6A==
+"@gas-digital/components@^0.5.9":
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/@gas-digital/components/-/components-0.5.9.tgz#e3ffa0f2c63777537455f8e41c6837c40dedad5a"
+  integrity sha512-dcW97fW03x0/mZQ+W0u+Ya1vlHX+XwtM4MliUKy+svsOSzbDcEqbkvnWOtBOvjLx+P4Tgz0u4pUcjMkX1z4+gQ==
   dependencies:
     axios "^0.26.0"
     core-js "^3.19.2"

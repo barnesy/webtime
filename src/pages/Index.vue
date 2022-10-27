@@ -3,7 +3,8 @@
     <template #page-header>
       <Header class="v2">
         <template>Multi-site management<br/> made for scale</template>
-        <!-- <template #support>Are you publishing documentation, video series, events, company resources and news across multiple websites? We do that.</template> -->
+        <template #support><Button url="/make-contact">Get Started</Button></template>
+
       </Header>
     </template>
 
@@ -16,7 +17,7 @@
     <PageSection padding="0rem 3rem 3rem">
       <Split>
         <template>
-          <h2>Consistency at scale</h2>
+          <h2>Consistency</h2>
           <p>A component-based design system quickly creates consistent design accross all sites and applications you own.</p>
         </template>
         <template #image>
@@ -26,7 +27,7 @@
 
       <Split class="flip" padding="6rem 0">
         <template>
-          <h2>For Accessibility</h2>
+          <h2>Accessibility</h2>
           <p>User Experience should not be an afterthought. We have designed a system to keep your information both searchable and accessible.</p>
           <p><strong>Did you know: </strong><a href="https://www.wsj.com/articles/lawsuits-over-digital-accessibility-for-people-with-disabilities-are-rising-11626369056">lawsuits for websites that fail accessibility requirements</a> are on the rise?</p>
         </template>
@@ -49,7 +50,7 @@
 
       <Split class="flip" padding="6rem 0">
         <template>
-          <h2>For Speed</h2>
+          <h2>Speed</h2>
           <p>
             Pages load fast, respond fast, and avoid the technical debt created by heavy systems.
           </p>
@@ -117,7 +118,12 @@
 
     <PageSection class="center">
       <template #title>Sounds like something you need?</template>
-      <template><p>Great. We can build it. In fact, we're halfway done already.</p></template>
+      <template>
+        <p>
+          Great. We can build it. In fact, we're halfway done already.
+        </p>
+        <Button url="/make-contact">Get Started</Button>
+      </template>
     </PageSection>
   </Directory>
 </template>
