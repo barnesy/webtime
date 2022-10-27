@@ -13,7 +13,7 @@
 
         <g-image src="/img/components.png" />
 
-        <p>We can scale this system to support a set of websites that share a common design, a hierarchy of content, and goals for the user. This allows us to affect change accross sites in a way that is extremely streamlined.</p>
+        <p>We can scale this system to support a set of websites that share a common design, a hierarchy of content, and goals for the user. This allows us to affect change across sites in a way that is extremely streamlined.</p>
 
         <g-image src="/img/structure.png" />
 
@@ -49,9 +49,6 @@
       </template>
     </PageSection>
 
-    <PageSection class="narrow center" padding="10rem 3rem">
-      <template #title>Sounds like something you need?</template>
-      <template><p>Great. We can build it. In fact, we're halfway done already.</p></template>
-    </PageSection>
+    <CTA/>
   </Directory>
 </template>

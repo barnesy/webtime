@@ -8,8 +8,7 @@
       </Header>
     </template>
 
-
-    <PageSection padding="8rem 3rem 8rem" class="narrow center">
+    <PageSection padding="8rem 3rem 8rem" class="narrow center dazzle" bgImage="url('/img/hexi.svg')">
         <template #title>A set of systems</template>
         <p>All you have to do is add content and pick where to publish.</p>
     </PageSection>
@@ -18,7 +17,7 @@
       <Split>
         <template>
           <h2>Consistency</h2>
-          <p>A component-based design system quickly creates consistent design accross all sites and applications you own.</p>
+          <p>A component-based design system quickly creates consistent design across all sites and applications you own.</p>
         </template>
         <template #image>
           <g-image src="/img/components.png" />
@@ -116,15 +115,7 @@
 
     </PageSection>
 
-    <PageSection class="center">
-      <template #title>Sounds like something you need?</template>
-      <template>
-        <p>
-          Great. We can build it. In fact, we're halfway done already.
-        </p>
-        <Button url="/make-contact">Get Started</Button>
-      </template>
-    </PageSection>
+    <CallToAction />
   </Directory>
 </template>
 
@@ -132,4 +123,10 @@
   .page-header {
     background-position: 0 88%;
   }
+
+  .dazzle{
+    background-repeat: repeat;
+    background-size: 3%;
+  }
+
 </style>

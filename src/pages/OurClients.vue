@@ -25,7 +25,7 @@
           </template>
           <template>Multi-Site</template>
           <template #description>
-            Style, functionality, and content accross multiple sites with a simple CMS.
+            Style, functionality, and content across multiple sites with a simple CMS.
           </template>
         </Card>
         <Card>
@@ -73,11 +73,6 @@
       <p>We are a full service shop capable of building anything, however, the above are our key areas of focus.</p>
     </PageSection>
 
-    <PageSection class="narrow center" padding="10rem 3rem">
-      <template #title>Sounds like something you need?</template>
-      <template><p>Great. We can build it. In fact, we're halfway done already.</p>
-        <Button url="/make-contact">Get Started</Button>
-      </template>
-    </PageSection>
+    <CTA/>
   </Directory>
 </template>

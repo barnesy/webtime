@@ -1,0 +1,16 @@
+<svg id="hex" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.78 100.2">
+  <style>
+    .poly {
+      stroke-dasharray: 88;
+      animation: dash 50s linear;
+    }
+
+   @keyframes dash {
+    to {
+      stroke-dashoffset: 1000;
+    }
+  </style>
+
+  <path class="poly" d="M43.14,99.81,0,74.91V25.09L43.14.19l43.14,24.9V74.91ZM86.28,25.09,43.14,50,0,25.09,43.14,50V99.81" transform="translate(0.25 0.1)" fill="transparent" stroke="blue" stroke-miterlimit="10" stroke-width="0.5"/>
+
+</svg>

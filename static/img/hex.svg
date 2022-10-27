@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" width="84.65mm" height="84.77mm" viewBox="0 0 8465 8477" preserveAspectRatio="xMidYMid" fill-rule="evenodd" clip-path="url(#presentation_clip_path)" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <style>
+
+  .SlideGroup {
+    stroke-dasharray: 200;
+    animation: dash 5s linear;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 1000;
+    }
+  }
+
+ </style>
+
  <defs class="ClipPathGroup">
   <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
    <rect x="0" y="0" width="8465" height="8477"/>
   </clipPath>
  </defs>
  <defs class="TextShapeIndex">
-  
+
  </defs>
  <defs class="EmbeddedBulletChars">
   <g id="bullet-char-template57356" transform="scale(0.00048828125,-0.00048828125)">
