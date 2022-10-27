@@ -48,7 +48,7 @@
             </template>
             <template>Integrations</template>
             <template #description>
-              Our system is set up to integrate from anywhere to anywhere. We build custom integrations to support any use case.
+              Our system is set up to integrate from anywhere to anywhere.
             </template>
           </Card>
           <Card>
