@@ -73,6 +73,6 @@
       <p>We are a full service shop capable of building anything, however, the above are our key areas of focus.</p>
     </PageSection>
 
-    <CTA/>
+    <CallToAction/>
   </Directory>
 </template>

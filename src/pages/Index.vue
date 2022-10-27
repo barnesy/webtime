@@ -8,7 +8,7 @@
       </Header>
     </template>
 
-    <PageSection padding="8rem 3rem 8rem" class="narrow center dazzle" bgImage="url('/img/hexi.svg')">
+    <PageSection padding="8rem 3rem 8rem" class="narrow center dazzle" bgImage="url('/img/circle.svg')">
         <template #title>A set of systems</template>
         <p>All you have to do is add content<br/> and pick where to publish.</p>
     </PageSection>
@@ -83,7 +83,7 @@
     </PageSection>
 
 
-    <PageSection class="narrow center">
+    <PageSection class="narrow center" padding="6rem 3rem">
       <template #title>Built on top of</template>
 
       <GridRow>
@@ -122,11 +122,6 @@
 <style lang="scss" scoped>
   .page-header {
     background-position: 0 88%;
-  }
-
-  .dazzle{
-    background-repeat: repeat;
-    background-size: 5.35%;
   }
 
 </style>

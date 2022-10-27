@@ -49,6 +49,6 @@
       </template>
     </PageSection>
 
-    <CTA/>
+    <CallToAction/>
   </Directory>
 </template>
