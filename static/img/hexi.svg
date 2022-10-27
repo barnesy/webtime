@@ -1,7 +1,7 @@
 <svg id="hex" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.78 100.2">
   <style>
     .poly {
-      stroke-dasharray: 100;
+      stroke-dasharray: 35;
       animation: dash 30s linear infinite;
     }
 
