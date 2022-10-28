@@ -4,6 +4,7 @@ import FooterLogo from "./components/FooterLogo";
 import FooterLeft from "./components/FooterLeft";
 import FooterNavList from "./components/FooterNavList";
 import CallToAction from "./components/CallToAction";
+import Animation from "./components/Animation";
 
 import {  Button,
           Card,
@@ -37,6 +38,7 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component('FooterNavList', FooterNavList);
   Vue.component('FooterLeft', FooterLeft);
   Vue.component('CallToAction', CallToAction);
+  Vue.component('Animation', Animation);
   Vue.component('Button', Button);
   Vue.component('Navigation', Navigation);
   Vue.component('Logo', Logo);

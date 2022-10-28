@@ -8,7 +8,7 @@
       </Header>
     </template>
 
-    <PageSection padding="8rem 3rem 8rem" class="narrow center dazzle" bgImage="url('/img/circle.svg')">
+    <PageSection padding="8rem 3rem 8rem" class="narrow center dazzle" bgImage="url('/img/orbit.svg')">
         <template #title>A set of systems</template>
         <p>All you have to do is add content<br/> and pick where to publish.</p>
     </PageSection>

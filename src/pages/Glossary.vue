@@ -9,15 +9,10 @@
 
     <PageSection padding="8rem 3rem 8rem" class="center">
 
-      <h2>Multi-Site</h2>
-
-      <h2>Multi-Author</h2>
+      <Animation />
 
     </PageSection>
 
-    <PageSection class="narrow center" padding="10rem 3rem">
-      <template #title>Sounds like something you need?</template>
-      <template><p>Great. We can build it. In fact, we're halfway done already.</p></template>
-    </PageSection>
+    <CallToAction />
   </Directory>
 </template>
