@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@gas-digital/components": "^0.5.9",
+    "@gas-digital/components": "^0.6.0",
     "@gridsome/source-contentful": "^0.6.0",
     "axios": "^0.26.0",
     "core-js": "^3.19.2",

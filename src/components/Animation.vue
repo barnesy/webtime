@@ -1,40 +1,84 @@
 <template>
   <div>
 
-    <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 110 110" width="300px">
+    <Split>
+      <template #image>
+        <h2>Path</h2>
 
-      <path id="path"
-        class="poly"
-        :d="path"
-        fill="transparent"
-        stroke="#EEE"
-        :stroke-dasharray="dashLength"
-        stroke-dashoffset="10"
-        stroke-miterlimit="10"
-        :stroke-width="stroke">
+        <input type="text" v-model="color" />
 
-        <animate
-          :dur="duration + 's'"
-          attributeName="stroke-dashoffset"
-          values="0;2037"
-          calcMode="linear"
-          repeatCount="indefinite"
-          />
-      </path>
+        <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 110 110" width="200">
+          <path id="path"
+            class="poly"
+            :d="path"
+            fill="transparent"
+            :stroke="color"
+            :stroke-dasharray="dashLength"
+            stroke-dashoffset="10"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            :stroke-width="stroke">
 
-      <circle r="3" fill="#EEE">
-        <animateMotion
-          :dur="duration + 's'"
-          repeatCount="indefinite"
-          :path="path" />
-      </circle>
+            <animate
+              :dur="duration + 's'"
+              attributeName="stroke-dashoffset"
+              values="0;2037"
+              calcMode="linear"
+              repeatCount="indefinite"
+              />
+          </path>
 
-    </svg>
+        </svg>
+      </template>
+      <template>
+        <h2>Object</h2>
+        <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 110 110" width="200">
 
-    {{duration}}
-    <input type="range" v-model="duration">
-    <input type="range" v-model="stroke">
-    <input type="range" v-model="dashLength">
+          <circle r="3" :fill="color">
+          </circle>
+        </svg>
+      </template>
+    </Split>
+
+    <PageSection padding="6rem">
+      {{duration}}
+      <input type="range" v-model="duration">
+      <input type="range" v-model="stroke">
+      <input type="range" v-model="dashLength">
+
+      <h2>Combined</h2>
+
+      <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 110 110" width="200">
+
+        <path id="path"
+          class="poly"
+          :d="path"
+          fill="transparent"
+          :stroke="color"
+          :stroke-dasharray="dashLength"
+          stroke-dashoffset="10"
+          stroke-miterlimit="10"
+          stroke-linecap="round"
+          :stroke-width="stroke">
+
+          <animate
+            :dur="duration + 's'"
+            attributeName="stroke-dashoffset"
+            values="0;2037"
+            calcMode="linear"
+            repeatCount="indefinite"
+            />
+        </path>
+
+        <circle r="6" :fill="color">
+          <animateMotion
+            :dur="duration + 's'"
+            repeatCount="indefinite"
+            :path="path" />
+        </circle>
+
+      </svg>
+    </PageSection>
 
   </div>
 </template>
@@ -46,8 +90,9 @@ export default {
   data() {
     return {
       dashLength:10,
-      duration: 10,
-      stroke: 1
+      duration: 40,
+      stroke: 1,
+      color: "#EEE"
     }
   },
   computed: {
@@ -61,6 +106,10 @@ export default {
 
 
 <style lang="scss" scoped>
+  svg {
+    margin: 6rem;
+  }
+
   @keyframes dash {
     to {
       stroke-dashoffset: 1000;

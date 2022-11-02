@@ -24,6 +24,8 @@
 
   .directory {
     background-color: white;
+    background-image: url('/img/orbit.svg');
+    background-size: 6%;
   }
 
   form {

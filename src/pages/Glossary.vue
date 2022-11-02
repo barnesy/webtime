@@ -2,8 +2,8 @@
   <Directory bgColor="lightgrey" bgImage="url(/img/roads.png)">
     <template #page-header>
       <Header class="v2">
-        <template>Glossary</template>
-        <template #support>Definition of terms.</template>
+        <template>Experimental</template>
+        <template #support>SVG experiments.</template>
       </Header>
     </template>
 
