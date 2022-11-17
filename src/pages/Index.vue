@@ -3,7 +3,10 @@
     <template #page-header>
       <Header class="v2">
         <template>Multi-site management<br/> made for scale</template>
-        <template #support><Button url="/make-contact">Get Started</Button></template>
+        <template #support>
+          <p>Run by digital architects<br /> that plan, sketch, design,<br /> code, deploy, and maintain<br /> digital entities.</p>
+          <Button url="/make-contact">Get Started</Button>
+        </template>
 
       </Header>
     </template>
