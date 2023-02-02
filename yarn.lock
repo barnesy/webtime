@@ -961,21 +961,6 @@
   resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-13.4.0.tgz#a59c311ebd1b801ee00edbc08663c8d78da26171"
   integrity sha512-YPdYqGmWiGAood7ri2BUXfPQKNthkQYV1rmQdaq4UAxWK5NLB5NXckaUYLbohqhHKtrq4tnfzVn+ePWID7Dzbg==
 
-"@gas-digital/components@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@gas-digital/components/-/components-0.6.0.tgz#914ece75bdb36bbe09ce15c5469db80350207452"
-  integrity sha512-19lxI6+xdCXNaC7XssKyyNG64EOMnm9grEj9oTAPJn7AdsTgdJz+VvXGtp/zl4pYdiO6MlvciIL26k42Ik8hNw==
-  dependencies:
-    axios "^0.26.0"
-    core-js "^3.19.2"
-    gridsome "^0.7.23"
-    mapbox-gl "^2.8.2"
-    markdown-it "^12.3.2"
-    require-from-url "^3.1.3"
-    sass "1.49.9"
-    sass-loader "^10.1.1"
-    vue "^2.6.14"
-
 "@gridsome/cli@^0.3.4":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.3.4.tgz#42fa7a4368a80bd04ec497c93cae5a66b041fe22"
@@ -2755,11 +2740,11 @@ content-type@^1.0.4, content-type@~1.0.4:
   integrity sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
 
 contentful-resolve-response@^1.1.4:
-  version "1.3.11"
-  resolved "https://registry.yarnpkg.com/contentful-resolve-response/-/contentful-resolve-response-1.3.11.tgz#a1164af38abf25cd6655a0d5f9c83115a66eb868"
-  integrity sha512-QSjPwLrmrGbK3XrT1T8xGF3lE+1hPFIHIpYOBIZIOZxriFIGx5vEiW6GJFaaA+nntMLwqyzsPeStbzT15PFkug==
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/contentful-resolve-response/-/contentful-resolve-response-1.6.2.tgz#2fa6b4edc56d7a6220d06ba35d099a7e25c2d9b3"
+  integrity sha512-C4j/VA+SPjgVa7IxeuUagE++B/3WG+P6meFLu7u5DKDU1Tizayc4f2Y7Pb8ZN7yx+wEOoaGZvmlV/zePPnXmRQ==
   dependencies:
-    fast-copy "^3.0.0"
+    fast-copy "^2.1.7"
 
 contentful-sdk-core@^6.0.1:
   version "6.11.0"
@@ -3922,15 +3907,10 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.1.tgz#8d172c064867f235c0c84a596806d279bf4bcc07"
   integrity sha512-Wrk35e8ydCKDj/ArClo1VrPVmN8zph5V4AtHwIuHhvMXsKf73UT3BOD+azBIW+3wOJ4FhEH7zyaJCFvChjYvMA==
 
-fast-copy@^2.1.0:
+fast-copy@^2.1.0, fast-copy@^2.1.7:
   version "2.1.7"
   resolved "https://registry.yarnpkg.com/fast-copy/-/fast-copy-2.1.7.tgz#affc9475cb4b555fb488572b2a44231d0c9fa39e"
   integrity sha512-ozrGwyuCTAy7YgFCua8rmqmytECYk/JYAMXcswOcm0qvGoE3tPb7ivBeIHTOK2DiapBhDZgacIhzhQIKU5TCfA==
-
-fast-copy@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/fast-copy/-/fast-copy-3.0.0.tgz#875ebf33b13948ae012b6e51d33da5e6e7571ab8"
-  integrity sha512-4HzS+9pQ5Yxtv13Lhs1Z1unMXamBdn5nA4bEi1abYpDNSpSp7ODYQ1KPMF6nTatfEzgH6/zPvXKU1zvHiUjWlA==
 
 fast-deep-equal@^3.1.1:
   version "3.1.3"
@@ -9511,6 +9491,21 @@ websocket-extensions@>=0.1.1:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
   integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
+
+webtime-blocks@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/webtime-blocks/-/webtime-blocks-0.1.1.tgz#03e9fd75c65279cf1025bf6048a2bdab2f6eb100"
+  integrity sha512-VR22ovBtdO4t2MicGtBadejS/QAhK8XvTjbA9oulSk5pbiackjrd0t5pbm9YvEqpEaYJhiVkU66bnDvPANk1og==
+  dependencies:
+    axios "^0.26.0"
+    core-js "^3.19.2"
+    gridsome "^0.7.23"
+    mapbox-gl "^2.8.2"
+    markdown-it "^12.3.2"
+    require-from-url "^3.1.3"
+    sass "1.49.9"
+    sass-loader "^10.1.1"
+    vue "^2.6.14"
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"

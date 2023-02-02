@@ -22,12 +22,11 @@ import {  Button,
           Footer,
           MultiColumn,
           Column,
-          Impact,
           Table,
           Figure
 }
-// from '../../component-library/lib';
-from '@gas-digital/components';
+// from '../../parts/lib';
+from 'webtime-blocks';
 
 import "~/assets/global.scss";
 
@@ -56,7 +55,6 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component('Footer', Footer);
   Vue.component('MultiColumn', MultiColumn);
   Vue.component('Column', Column);
-  Vue.component('Impact', Impact);
   Vue.component('Table', Table);
   Vue.component('Figure', Figure);
 }
